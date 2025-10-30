@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit !important;
+    text-decoration: none;
+}
+#logo{
+    width: 2rem;
+}
+header div{
+    font-size: 0.6rem;
+}
+
+
+
+@media (min-width:576px) {
+  header div{
+    font-size: 1rem;
+}
+  
+}
