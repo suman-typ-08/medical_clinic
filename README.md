@@ -12,8 +12,16 @@
 
 - ⚡ Fast loading and optimized UI
 
-| Frontend             | Tools / Libraries        |
-| -------------------- | ------------------------ |
-| HTML5                |                          |
-| CSS3                 |                          |
-| JavaScript           | VS Code                  |
+
+
+
+<table>
+  <tr>
+    <th rowspan="2">Frontend</th>
+    <td>HTML</td>
+    <th rowspan="2">tools - VS Code</th>
+  </tr>
+  <tr>
+    <td>CSS</td>
+  </tr>
+</table>
