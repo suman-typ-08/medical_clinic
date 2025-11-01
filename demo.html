@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .profileCnt{
+            height: 60px;
+            width:60px;
+            overflow: hidden;
+            border: 1px solid #999;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            padding: 10px;
+            background-color: #dedddd;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            transition: all 500ms linear;
+        }
+        .profileCnt img, .profileCnt i{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        .profileCnt p{
+            font-weight: 660;
+            font-size: 1.1rem;
+        }
+      .profileCnt i{
+        background-color: rgb(77, 74, 74);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        color: #fff
+        ;
+      }
+
+      .profileCnt:hover{
+        width: 300px;
+      }
+    </style>
+</head>
+<body>
+    <div class="profileCnt">
+        <img src="https://www.pngmart.com/files/23/Profile-PNG-Photo.png" alt="">
+        <p>view more</p>
+        <i class="fa-solid fa-arrow-right"></i>
+    </div>
+</body>
+</html>

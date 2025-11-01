@@ -15,7 +15,9 @@ header div{
     font-size: 0.6rem;
 }
 
-
+.btncnt button{
+    font-size: 0.7rem;
+}
 
 @media (min-width:576px) {
   header div{
