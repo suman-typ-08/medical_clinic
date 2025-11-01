@@ -13,6 +13,10 @@
 - ⚡ Fast loading and optimized UI
 
 
+## Layout
+![home page](./image.png)
+
+[🎥 Watch Demo Video](./videos/demo.mp4)
 
 
 <table>
